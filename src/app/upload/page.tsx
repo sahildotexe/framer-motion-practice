@@ -34,7 +34,7 @@ const pathVariant = {
 
 const mainBoxVariants = {
   initial: { backgroundColor: "#5B32EB" },
-  uploading: { scale: 1.2 },
+  uploading: { scale: 1 },
   uploaded: {
 
   },
@@ -77,7 +77,6 @@ export default function Upload() {
           opacity: 1,
         }}
         className="example-container min-w-[320px] cursor-pointer overflow-hidden flex flex-col"
-        whileHover={{ scale: 1.2 }}
         onClick={() => handleUpload()}
       >
         {isUploaded ? (
