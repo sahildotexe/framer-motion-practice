@@ -81,10 +81,10 @@ export default function Upload() {
       >
         {isUploaded ? (
           <motion.div
-            initial={{ opacity:0,x: "-30px" }}
+            initial={{ opacity:0,x: "-80px" }}
             animate={{ opacity:1,x: 0 }}
             className="p-4 m-0 font-semibold flex flex-row justify-center items-center text-[#5B32EB] z-50"
-            transition={{ duration: 0.25, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
           >
        Uploaded
             <span className="ml-2 font-normal mt-[-5px]">
