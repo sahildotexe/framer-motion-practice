@@ -76,6 +76,7 @@ export default function Delete() {
           variants={mainVariant}
           initial={{ backgroundColor: "white" }}
           onHoverStart={handleHoverStart}
+          onClick={handleHoverStart}
           className="w-[64px] h-[64px] flex justify-center items-center rounded-full cursor-pointer"
         >
           <svg
