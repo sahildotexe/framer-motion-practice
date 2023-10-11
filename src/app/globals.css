@@ -13,3 +13,28 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+.speech {
+  position: relative;
+  margin: 1em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #545454;
+  z-index: 2;
+  margin-bottom: 5px;
+  padding-bottom: 0.3em;
+}
+.speech:before,
+.speech.pointed.down:before {
+  content: '';
+  position: absolute;
+  bottom: -1em;
+  border-style: solid;
+  border-width: 1em 1em 0;
+  border-color: #fff transparent;
+  z-index: -1;
+}
+.speech.pointed.center:before {
+  right: 50%;
+  transform: translateX(50%);
+}

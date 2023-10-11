@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'upload button',
-  description: 'upload button animation',
+  title: 'framer motion experiments',
+  description: "here's few of my experiments w framer motion -",
 }
 
 export default function RootLayout({
